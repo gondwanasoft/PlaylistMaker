@@ -936,7 +936,7 @@ namespace LibVLCSharp.WPF.Sample
         private void OpenBtn_Click(object sender, RoutedEventArgs e) {
             Debug.WriteLine("OpenBtn_Click");
             OpenFileDialog openFileDialog = new OpenFileDialog {
-                Filter = "Video files|*.avi;*.divx;*.flv;*.mov;*.mp4;*.mpeg;*.mpg;*.qt;*.ram;*.rm;*.rmvb;*.wmv;*.webm|All files (*.*)|*.*"
+                Filter = "Video files|*.avi;*.divx;*.flv;*.mkv;*.mov;*.mp4;*.mpeg;*.mpg;*.qt;*.ram;*.rm;*.rmvb;*.wmv;*.webm|All files (*.*)|*.*"
             };
             if (openFileDialog.ShowDialog() != true) return;
 
